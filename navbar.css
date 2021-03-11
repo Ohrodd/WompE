@@ -1,0 +1,45 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 60px 90px 50px;
+}
+
+.logoImages{
+    margin-top: 30px;
+    width: 100px;
+}
+
+.items li{
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    background-color: rgb(36, 167, 255);
+}
+
+.textos a{
+    color: #fff;
+    border-bottom: #fff solid 2px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.botones{
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.items li:hover, #home:hover{
+    background: rgb(29, 129, 195);
+    cursor: pointer;
+}
